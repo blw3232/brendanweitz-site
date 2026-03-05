@@ -36,8 +36,7 @@ export default function Home() {
 
         <p>
           I currently lead worldwide partnerships for Amazon Creators & Social
-          Marketing, working across creator platforms, affiliate commerce,
-          advertising, and distribution ecosystems.
+          Marketing.
         </p>
 
         <p>
