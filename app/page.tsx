@@ -8,12 +8,14 @@ export default function Home() {
         <div className="header">
 
           <div className="heroImage">
-            <Image
-              src="/headshot.jpg"
-              alt="Brendan Weitz"
-              width={180}
-              height={180}
-              priority
+  <Image
+    src="/headshot.jpg"
+    alt="Brendan Weitz"
+    width={180}
+    height={180}
+    priority
+  />
+</div>
             />
           </div>
 
