@@ -19,7 +19,6 @@ export default function Home() {
   <a href="https://x.com/bweitz1">X</a> |{" "}
   <a href="mailto:bweitz1@gmail.com">Email</a>
 </div>
-          )
         </p>
 
         <h1>Brendan Weitz</h1>
