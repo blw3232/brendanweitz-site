@@ -48,8 +48,8 @@ export default function Home() {
         </p>
 
         <p>
-          Previously I co-founded Journey (YC W21), built partnerships and monetization
-          at Quora, and spent early years scaling AdTech platforms globally.
+          Previously I co-founded Journey (YC W21), launched new markets at
+          at Quora/AdRoll, and slung FB ads before there was a news feed. 
         </p>
 
         <hr />
