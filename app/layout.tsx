@@ -1,15 +1,9 @@
 import "./globals.css";
-import { Source_Serif_4 } from "next/font/google";
-
-const serif = Source_Serif_4({
-  subsets: ["latin"],
-  weight: ["400", "600"],
-});
 
 export const metadata = {
   title: "Brendan Weitz",
   description:
-    "Founder, investor, and GM / Head of Business Development in consumer internet, AdTech, and SaaS.",
+    "Founder, investor, and GM / Head of Business Development in consumer internet, AdTech, and B2B SaaS.",
 };
 
 export default function RootLayout({
@@ -19,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={serif.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
