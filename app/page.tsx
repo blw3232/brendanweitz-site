@@ -14,10 +14,19 @@ export default function Home() {
   priority
   style={{ borderRadius: "50%" }}
 />
-<div className="links">
-  <a href="https://www.linkedin.com/in/brendanweitz">LinkedIn</a> |{" "}
-  <a href="https://x.com/bweitz1">X</a> |{" "}
+<p className="links">
+  (
+  <a href="https://www.linkedin.com/in/brendanlweitz" target="_blank" rel="noreferrer">
+    LinkedIn
+  </a>
+  ,{" "}
+  <a href="https://x.com/YOURHANDLE" target="_blank" rel="noreferrer">
+    X
+  </a>
+  ,{" "}
   <a href="mailto:bweitz1@gmail.com">Email</a>
+  )
+</p>
 </div>
         </p>
 
