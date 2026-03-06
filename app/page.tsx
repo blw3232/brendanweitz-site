@@ -26,7 +26,7 @@ export default function Home() {
           </a>
           ,{" "}
           <a
-            href="https://x.com/YOURHANDLE"
+            href="https://x.com/bweitz1"
             target="_blank"
             rel="noreferrer"
           >
