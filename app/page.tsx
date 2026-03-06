@@ -20,7 +20,7 @@ export default function Home() {
     LinkedIn
   </a>
   ,{" "}
-  <a href="https://x.com/YOURHANDLE" target="_blank" rel="noreferrer">
+  <a href="https://x.com/bweitz1" target="_blank" rel="noreferrer">
     X
   </a>
   ,{" "}
