@@ -48,7 +48,7 @@ export default function Home() {
         </p>
 
         <p>
-          Previously I co-founded Journey (YC W21), launched new markets at
+          Previously I co-founded Journey (YC W21), launched new markets
           at Quora/AdRoll, and slung FB ads before there was a news feed. 
         </p>
 
