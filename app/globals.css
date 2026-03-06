@@ -32,12 +32,12 @@ a {
 }
 
 .container {
-  max-width: 760px;
+  max-width: 720px;
   margin: 0 auto;
 }
 
 .heroImage {
-  width: 220px;
+  width: 200px;
   margin: 0 0 10px 0;
 }
 
@@ -46,33 +46,29 @@ a {
   height: auto;
   display: block;
   border-radius: 0;
-  box-shadow: none;
 }
 
 .links {
-  margin: 10px 0 14px;
+  margin: 8px 0 12px;
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 28px;
   line-height: 1.2;
-  margin: 0 0 8px;
+  margin: 0 0 6px;
   font-weight: 700;
 }
 
 h2 {
   font-size: 17px;
-  line-height: 1.4;
-  margin: 0 0 16px;
+  margin: 0 0 14px;
   font-weight: 400;
-  color: var(--text);
 }
 
 h3 {
   font-size: 17px;
-  line-height: 1.4;
-  margin: 24px 0 8px;
-  font-weight: 400;
+  margin: 22px 0 8px;
+  font-weight: 700;
 }
 
 p {
@@ -91,11 +87,10 @@ li {
 hr {
   border: 0;
   border-top: 1px solid var(--border);
-  margin: 18px 0 18px;
+  margin: 18px 0;
 }
 
 .footer {
-  margin-top: 28px;
-  color: var(--text);
+  margin-top: 26px;
   font-size: 14px;
 }
