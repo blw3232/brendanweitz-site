@@ -1,6 +1,5 @@
 :root {
   --text: #111;
-  --muted: #555;
   --border: #ddd;
   --bg: #fff;
 }
@@ -29,7 +28,7 @@ a {
 }
 
 .page {
-  padding: 28px 18px;
+  padding: 30px 18px;
 }
 
 .container {
@@ -37,18 +36,16 @@ a {
   margin: 0 auto;
 }
 
-.heroImage img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 50%;
+.heroImage {
+  width: 180px;
+  margin-bottom: 10px;
 }
 
 .heroImage img {
   width: 100%;
   height: auto;
+  border-radius: 50%;
   display: block;
-  border-radius: 0;
 }
 
 .links {
@@ -57,7 +54,6 @@ a {
 
 h1 {
   font-size: 28px;
-  line-height: 1.2;
   margin: 0 0 6px;
   font-weight: 700;
 }
