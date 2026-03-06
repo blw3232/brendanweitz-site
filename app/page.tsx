@@ -29,7 +29,7 @@ export default function Home() {
               </a>
               ,{" "}
               <a
-                href="https://x.com/YOURHANDLE"
+                href="https://x.com/bweitz1"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -49,9 +49,7 @@ export default function Home() {
             </p>
 
             <p>
-              Previously I co-founded Journey (YC W21), built partnerships and
-              monetization at Quora, and spent early years scaling AdTech
-              platforms globally.
+              Previously I co-founded Journey (YC W21), launched new markets at Quora/AdRoll, and slung FB Ads before there was a news feed (or mobile!).
             </p>
           </div>
         </div>
