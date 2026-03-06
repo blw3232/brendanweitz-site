@@ -1,50 +1,55 @@
-<div className="heroImage">
-  <Image
-    src="/headshot.jpg"
-    alt="Brendan Weitz"
-    width={220}
-    height={220}
-    priority
-  />
-</div>
+import Image from "next/image";
 
-<p className="links">
-  (
-  <a
-    href="https://www.linkedin.com/in/brendanlweitz"
-    target="_blank"
-    rel="noreferrer"
-  >
-    LinkedIn
-  </a>
-  ,{" "}
-  <a
-    href="https://x.com/bweitz1"
-    target="_blank"
-    rel="noreferrer"
-  >
-    X
-  </a>
-  ,{" "}
-  <a href="mailto:bweitz1@gmail.com">Email</a>
-  )
-</p>
+export default function Home() {
+  return (
+    <main className="page">
+      <div className="container">
 
-<h1>Brendan Weitz</h1>
+        <div className="heroImage">
+          <Image
+            src="/headshot.jpg"
+            alt="Brendan Weitz"
+            width={200}
+            height={200}
+            priority
+          />
+        </div>
 
-<h2>
-  Founder, Investor, GM / Head of BD @ Consumer Internet, AdTech, B2B SaaS
-</h2>
+        <p className="links">
+          (
+          <a
+            href="https://www.linkedin.com/in/brendanlweitz"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn
+          </a>
+          ,{" "}
+          <a
+            href="https://x.com/YOURHANDLE"
+            target="_blank"
+            rel="noreferrer"
+          >
+            X
+          </a>
+          ,{" "}
+          <a href="mailto:bweitz1@gmail.com">Email</a>
+          )
+        </p>
+
+        <h1>Brendan Weitz</h1>
+
+        <h2>
+          Founder, Investor, GM / Head of BD @ Consumer Internet, AdTech, B2B SaaS
+        </h2>
 
         <p>
-          I currently lead worldwide partnerships for Amazon Creators & Social
-          Marketing.
+          I currently lead worldwide partnerships for Amazon Creators &amp; Social Marketing.
         </p>
 
         <p>
-          Previously I co-founded Journey (YC W21), built partnerships and
-          monetization at Quora, and spent early years scaling AdTech platforms
-          globally.
+          Previously I co-founded Journey (YC W21), built partnerships and monetization
+          at Quora, and spent early years scaling AdTech platforms globally.
         </p>
 
         <hr />
@@ -53,36 +58,20 @@
 
         <ul>
           <li>
-            <strong>Amazon</strong> — Principal, WW Creators & Social
-            (May 2024 – Present)
+            <strong>Amazon</strong> — Principal, WW Creators & Social (2024 – Present)
           </li>
-
           <li>
-            <strong>Journey (YC W21)</strong> — Co-Founder & CBO
-            (2021 – 2024)
+            <strong>Journey (YC W21)</strong> — Co-Founder & CBO (2021 – 2024)
           </li>
-
           <li>
-            <strong>Quora</strong> — GM
-            (2018 – 2021)
+            <strong>Quora</strong> — GM (2018 – 2021)
           </li>
-
           <li>
-            <strong>AdRoll / NextRoll</strong> — Senior Director, Business Development
-            (2012 – 2018)
+            <strong>AdRoll / NextRoll</strong> — Senior Director, Business Development (2012 – 2018)
           </li>
-
           <li>
-            <strong>Facebook</strong> — Client Partner
-            (2010 – 2012)
+            <strong>Facebook</strong> — Client Partner (2010 – 2012)
           </li>
-        </ul>
-
-        <h3>Investing</h3>
-
-        <ul>
-          <li>Partner / Angel Investor — 640 Oxford Ventures</li>
-          <li>LP — GTMfund</li>
         </ul>
 
         <p className="footer">
