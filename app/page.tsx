@@ -1,40 +1,40 @@
-import Image from "next/image";
+<div className="heroImage">
+  <Image
+    src="/headshot.jpg"
+    alt="Brendan Weitz"
+    width={220}
+    height={220}
+    priority
+  />
+</div>
 
-export default function Home() {
-  return (
-    <main className="page">
-      <div className="container">
-
-        <div className="heroImage">
-        <Image
-  src="/headshot.jpg"
-  alt="Brendan Weitz"
-  width={180}
-  height={180}
-  priority
-  style={{ borderRadius: "50%" }}
-/>
 <p className="links">
   (
-  <a href="https://www.linkedin.com/in/brendanlweitz" target="_blank" rel="noreferrer">
+  <a
+    href="https://www.linkedin.com/in/brendanlweitz"
+    target="_blank"
+    rel="noreferrer"
+  >
     LinkedIn
   </a>
   ,{" "}
-  <a href="https://x.com/bweitz1" target="_blank" rel="noreferrer">
+  <a
+    href="https://x.com/YOURHANDLE"
+    target="_blank"
+    rel="noreferrer"
+  >
     X
   </a>
   ,{" "}
   <a href="mailto:bweitz1@gmail.com">Email</a>
   )
 </p>
-</div>
-        </p>
 
-        <h1>Brendan Weitz</h1>
+<h1>Brendan Weitz</h1>
 
-        <h2>
-          Founder, Investor, GM / Head of BD @ Consumer Internet, AdTech, B2B SaaS
-        </h2>
+<h2>
+  Founder, Investor, GM / Head of BD @ Consumer Internet, AdTech, B2B SaaS
+</h2>
 
         <p>
           I currently lead worldwide partnerships for Amazon Creators & Social
